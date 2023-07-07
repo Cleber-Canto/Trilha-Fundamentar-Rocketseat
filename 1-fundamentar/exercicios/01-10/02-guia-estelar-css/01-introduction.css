@@ -1,0 +1,31 @@
+/* 
+    Comentários em CSS 
+*/
+
+/* Anatomia do CSS */
+h1 /* Seletor */{
+    /* propriedade: valor; */
+    color: blue;
+    font-size: 30px;
+    background: purple;
+} /* {Declaração} */
+
+/* 
+seletor {
+    propriedade: valor
+}
+
+tudo dentro do {} é a declaração
+*/
+
+/* Shorthands */
+background {
+    background-color: #000;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+shorthand {
+    background: #000 url(images/background.jpg) no-repeat left top;
+}
